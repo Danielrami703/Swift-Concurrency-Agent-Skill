@@ -15,13 +15,6 @@ Based on the comprehensive [Swift Concurrency Course](https://www.swiftconcurren
 - Developers debugging data races, isolation errors, or flaky async tests.
 - Anyone wanting performance-minded concurrency patterns (actors, tasks, Sendable, async streams).
 
-## Where to Save Skills
-
-Follow your tool’s official documentation, here are a few popular ones:
-- **Codex:** [Where to save skills](https://developers.openai.com/codex/skills/#where-to-save-skills)
-- **Claude:** [Using Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview#using-skills)
-- **Cursor:** [Enabling Skills](https://cursor.com/docs/context/skills#enabling-skills)
-
 ## How to Use This Skill
 
 ### Option A: Using OpenSkills (recommended)
@@ -45,6 +38,13 @@ Follow your tool’s official documentation, here are a few popular ones:
 1) **Clone** this repository.  
 2) **Install or symlink** the `swift-concurrency/` folder following your tool’s official skills installation docs (see links above).  
 3) **Use your AI tool** as usual and ask it to use the “swift-concurrency” skill for Swift Concurrency tasks.
+
+#### Where to Save Skills
+
+Follow your tool’s official documentation, here are a few popular ones:
+- **Codex:** [Where to save skills](https://developers.openai.com/codex/skills/#where-to-save-skills)
+- **Claude:** [Using Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview#using-skills)
+- **Cursor:** [Enabling Skills](https://cursor.com/docs/context/skills#enabling-skills)
 
 **How to verify**: 
 
