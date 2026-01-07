@@ -24,6 +24,24 @@ Follow your tool’s official documentation, here are a few popular ones:
 
 ## How to Use This Skill
 
+### Option A: Using OpenSkills (recommended)
+1) Install OpenSkills:  
+   ```bash
+   npm i -g openskills
+   ```
+2) `cd` into your project directory.  
+3) Install this skill:  
+   ```bash
+   openskills install avdlee/Swift-Concurrency-Agent-Skill
+   ```
+4) Sync into your `AGENTS.md`:  
+   ```bash
+   openskills sync
+   ```
+5) Use the skill in your AI agent, for example:  
+   > Use the swift concurrency skill and analyze the current project for Swift Concurrency improvements
+
+### Option B: Manual install
 1) **Clone** this repository.  
 2) **Install or symlink** the `swift-concurrency/` folder following your tool’s official skills installation docs (see links above).  
 3) **Use your AI tool** as usual and ask it to use the “swift-concurrency” skill for Swift Concurrency tasks.
